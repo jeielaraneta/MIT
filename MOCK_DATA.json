@@ -35,8 +35,7 @@
  	"birthday":"6/11/1991"
  },{
  	"id":6,
- 	"first_name":
- 	"Abeu",
+ 	"first_name":"Abeu",
  	"last_name":"Gubbins",
  	"gender":"Male",
  	"isEnrolled":false,
