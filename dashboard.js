@@ -27,17 +27,13 @@ Highcharts.chart('container', {
         name: 'Population of Enrollees',
         colorByPoint: true,
         data: [{
-            name: '2017-2018',
+            name: 'School Year 2017-2018',
             y: 450,
             drilldown: '201718'
         }, {
-            name: '2018-2019',
-            y: 20,
+            name: 'School Year 2018-2019',
+            y: 600,
             drilldown: '201819'
-        }, {
-            name: '2019-2020',
-            y: 0,
-            drilldown: ' '
         }]
     }],
     drilldown: {
@@ -66,7 +62,7 @@ Highcharts.chart('container', {
                     y: 30
                 }, {
                     name: 'Computer Studies',
-                    y: 44
+                    y: 45
                 }, {
                     name: 'Business and Public Administration',
                     y: 35
@@ -118,22 +114,73 @@ Highcharts.chart('container', {
                 name: 'Population',
                 data: [{
                         name: 'Summer',
-                        y: 5,
+                        y: 100,
                         drilldown: 'summer2019'
                     }, {
                         name: '1st Semester',
-                        y: 15,
-                        drilldown: 'summer'
+                        y: 300,
+                        drilldown: 'firstSem2019'
                     }, {
                         name: '2nd Semester',
-                        y: 5,
-                        drilldown: 'summer'
+                        y: 200,
+                        drilldown: 'secondSem2019'
                     }
                 ]
 
             }, {
                 id: 'summer2019',
-                data: [1,2,3]
+                data: [{
+                    name: 'Engineering',
+                    y: 30
+                }, {
+                    name: 'Computer Studies',
+                    y: 30
+                }, {
+                    name: 'Business and Public Administration',
+                    y: 10
+                }, {
+                    name: 'Education',
+                    y: 10
+                }, {
+                    name: 'Arts and Sciences',
+                    y: 20
+                }]
+            }, {
+                id: 'firstSem2019',
+                data: [{
+                    name: 'Engineering',
+                    y: 150
+                }, {
+                    name: 'Computer Studies',
+                    y: 150
+                }, {
+                    name: 'Business and Public Administration',
+                    y: 100
+                }, {
+                    name: 'Education',
+                    y: 100
+                }, {
+                    name: 'Arts and Sciences',
+                    y: 100
+                }]
+            }, {
+                id: 'secondSem2019',
+                data: [{
+                    name: 'Engineering',
+                    y: 30
+                }, {
+                    name: 'Computer Studies',
+                    y: 30
+                }, {
+                    name: 'Business and Public Administration',
+                    y: 40
+                }, {
+                    name: 'Education',
+                    y: 30
+                }, {
+                    name: 'Arts and Sciences',
+                    y: 70
+                }]
             }]
         }
 });
