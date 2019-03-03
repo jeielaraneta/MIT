@@ -20,3 +20,8 @@ So I can pass my subject :)
 		- Department
 4. Research and Extension - total ng target of researches *bar graph
 	- College
+----------------------------------------------------------------------
+INSTRUCTIONS:
+1. Clone the repository
+2. Copy the directory of the dashboard.html
+3. Paste it on the browser and run
